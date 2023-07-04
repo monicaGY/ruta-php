@@ -1,6 +1,7 @@
 <?php  
 require_once __DIR__ . '/vendor/autoload.php';
-
+// el paquete que he utilizado, ejecutar en la terminal: 
+// composer require mpdf/mpdf
 $mpdf = new \Mpdf\Mpdf();
 $mpdf->WriteHTML('
     <h1>Mi primer pdf</h1>
